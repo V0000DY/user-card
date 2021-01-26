@@ -1,0 +1,111 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  border: solid hsl(0, 0%, 59%) 1px;
+  border-bottom: none;
+  /* color: hsl(0, 0%, 59%); */
+}
+
+.width {
+  width: 1440px;
+  height: 720px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.age {
+  display: inline;
+}
+
+.bg-pattern-card {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.count {
+  display: inline-block;
+  margin: 2% 7%;
+}
+
+.image-victor {
+  border: solid white 5px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 53px;
+}
+
+.main-container {
+  background-color: white;
+  width: 350px;
+  margin: 160px 545px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.middle-container {
+  padding: 80px 0 10px;
+}
+
+.name {
+  display: inline;
+}
+
+.top-container {
+  height: 140px;
+}
+
+.pattern-top {
+  position: relative;
+  right: 500px;
+  bottom: 540px;
+  z-index: -1;
+}
+
+.pattern-bottom {
+  position: relative;
+  left: 500px;
+  bottom: 640px;
+  z-index: -1;
+}
+
+@media (max-width: 900px) {
+  .width {
+    width: 375px;
+    height: 667px;
+  }
+
+  .main-container {
+    margin: 160px 12.5px;
+  }
+
+  .pattern-top {
+    right: 770px;
+    bottom: 600px;
+  }
+
+  .pattern-bottom {
+    left: 110px;
+    bottom: 640px;
+  }
+}
