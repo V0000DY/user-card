@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   margin: 0;
+  height: 100%;
 }
 
 h1 {
@@ -25,6 +26,15 @@ hr {
   border: solid hsl(0, 0%, 59%) 1px;
   border-bottom: none;
   /* color: hsl(0, 0%, 59%); */
+}
+
+.all-height {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .width {
@@ -90,6 +100,10 @@ hr {
 }
 
 @media (max-width: 900px) {
+  .all-height {
+    width: 375px;
+  }
+  
   .width {
     width: 375px;
     height: 667px;
